@@ -1,0 +1,392 @@
+body
+{
+	background:linear-gradient(#3e2e64,#403066);
+}
+body::-webkit-scrollbar {  /* to hide the scrollbar*/
+  display: none;
+}
+.horizontal-list /* used to display list horizontaly*/
+{
+	list-style: none;
+}
+.horizontal-list li
+{
+	display:inline-block;
+}
+.text-color
+{
+	color:white;
+}
+.nav-div1 li /* navigation section code */
+{
+	height:50%;
+}
+.nav-div1 li i
+{
+	height:30%;
+}
+#music-div
+{
+	width:40px;
+	height:30px;
+	background-color:#071279;
+	border-radius: 50%;
+	padding-top: 10%;
+	padding-left:20%;
+
+}
+#music-div1
+{
+	margin-left:10%;
+	width:40%;
+	background-color:#ff06fd;
+	height:70%;
+	border-radius:50%;
+}
+#music-div1 i
+{
+	width:100px;
+	height:80px;
+}
+#swift
+{
+	margin-left:3%;
+}
+#swift img
+{
+	border-radius: 50%;
+}
+.space
+{
+	margin-left: 10%;
+	margin-right:30%;
+}
+.fa-microphone,.fa-search,.fa-bell,.fa-heart-o,.fa-plus,.fa-play /* fontawesome icon color*/
+{
+  color: white;
+}
+.set-margin
+{
+margin-left:-3%;
+margin-right:-2%;
+}
+.set-color
+{
+	background:linear-gradient(#080119,#403066);
+}
+form button /* creating search button */
+{
+   border:none;
+}
+form input[type=text]
+{
+	border:none;
+}
+ #bell
+ {
+ 	margin-left:10%;
+ }
+ main /* main section code */
+{
+	width:60vw;
+	display:inline-block;
+}
+
+#section1 /*displays cold play image and paragraph*/
+{
+	width:60vw;
+	height:auto;
+	background-color: ;
+	margin-top: 10px;
+	margin-left: 5%;
+}
+#div1
+{
+	display:inline-block;
+	width:40%;
+
+}
+#div2
+{
+	display:inline-block;
+	width:50%;
+	margin-left: 5%;
+	vertical-align: top;
+}
+#div2 h1,#p1
+{
+	display:inline-block;
+}
+.text-color2
+{
+	color:grey;
+}
+#button
+{
+	background-color: purple;
+	width:100px;
+	height:30px;
+}
+#section2 /* displays song*/
+{
+	width:60vw;
+	height:300px;
+	margin-top:15px;
+	margin-left:5%;
+	overflow-y: scroll;
+}
+#section2::-webkit-scrollbar {/* hidding scrollbar*/
+  display: none;
+}
+.song-section
+{
+width:100%;
+display:flex;
+flex-wrap: wrap;
+flex-direction: column;
+}
+.set
+{
+	margin-left:50%;
+}
+.margin-set
+{
+	margin-left:30%;
+}
+.Release-setting
+{
+width:inherit;
+height: auto;
+display:flex;
+flex-wrap: wrap;
+flex-direction: row;
+background-color:#0a0b0b ;
+}
+.width-set
+{
+   width:30%;
+}
+.hovering2:hover img /* applys hovering affect*/
+{
+box-shadow:0px 0px 6px 4px grey;	
+}
+#butterfly
+{
+	position: relative;
+}
+.play
+{
+	position: absolute;
+	left:30%;
+	top:25%;
+}
+aside/* aside section code*/
+{
+   margin-left:5%;
+   display:inline-block;
+   vertical-align:top;
+   width:30vw;
+}
+#artist,#Recently-played /* similar artist and recently played section*/
+{
+	width:30vw;
+	height:300px;
+	overflow-y: scroll;
+}
+#Recently-played
+{
+	width:30vw;
+	height:130px;
+	overflow-y: scroll;
+}
+#artist::-webkit-scrollbar { /* hiding scrollbar*/
+  display: none;
+}
+#Recently-played::-webkit-scrollbar {
+  display: none;
+}
+
+.right-margin2 
+{
+margin-left: 30%;
+}
+.similar-playlist
+{
+width:inherit;
+height: auto;
+display:flex;
+flex-wrap: wrap;
+flex-direction: row;
+margin-left: 8%;
+}
+footer{/* footer section*/
+	position: fixed;
+	bottom:1%;
+}
+#footer-div
+{
+	width:100vw;
+	height:auto;
+	background-color: #27232e;
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:row;
+	justify-content: space-around;
+}
+#footer-div1,#footer-div2,.footer-inner-div,.footer-inner-div1,#footer-div3
+
+{
+width:20%;
+display:flex;
+flex-wrap:wrap;
+flex-direction: row;
+}
+#footer-div2
+{
+	margin-left:10%;
+	width:30%;
+}
+.footer-inner-div
+{
+	justify-content: space-around;
+}
+.set-border
+{
+	border-radius: 70%;
+}
+.set-border2
+{
+	border-right: 2px ;
+	border-left:2px ;
+	border-radius: 20%;
+}
+#footer-div3
+{
+	width:30%;
+}
+@media screen and (max-width:1350px)/* making code responsive*/
+{
+#footer-div
+{
+	height:70px;
+}
+#footer-div1
+{
+	width:30%;
+}
+.space
+{
+	margin-right:15%;
+}
+
+}
+@media screen and (max-width: 1200px)
+{
+	.right-margin2
+	{
+		margin-left:10%;
+	}
+}
+@media screen and (max-width:900px)
+{
+ main
+ {
+ 	width:50vw;
+ }
+ #section1,#section2
+ {
+ 	width:50vw;
+ }
+ .set
+ {
+ 	margin-left:1%;
+ }
+ aside
+ {
+ 	width:40vw;
+ 	margin-left:4%;
+ }
+#swift
+{
+	margin-left:1%;
+}
+#bell
+{
+	margin-left:1%;
+}
+.space
+{
+	margin-left:3%;
+	margin-right:5%;
+}
+.right-margin2
+{
+	margin-left: 5%;
+}
+.margin-set
+{
+	margin-left: 20%
+}
+#footer-div
+{
+	height:60px;
+}
+#footer-div1
+{
+	width:30%;
+}
+
+}
+@media screen and (max-width:700px)
+{
+	main
+	{
+		display:block;
+		width:100vw;
+	}
+	#section1,#section2
+	{
+		width:80vw;
+	}
+	aside
+	{
+		display:block;
+		width:100vw;
+	}
+#artist
+{
+	width:50vw;
+	height:300px;
+	overflow-y: scroll;
+}
+#Recently-played
+{
+	width:50vw;
+	height:300px;
+	overflow-y: scroll;
+}
+	#footer-div1
+    {
+	width:50%;
+    }
+    #footer-div2
+{
+	margin-left:5%;
+	width:40%;
+}
+}
+@media screen and (max-width:600px)
+{
+   #swift
+   {
+   	display:none;
+   }
+nav
+{
+	margin-left:-10%;
+}
+#footer-div
+{
+	height:40px;
+}
+}

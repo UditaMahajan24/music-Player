@@ -1,0 +1,604 @@
+body
+{
+	background:linear-gradient(#3e2e64,#403066);
+}
+body::-webkit-scrollbar {  /* to hide the scrollbar*/
+  display: none;
+}
+
+.horizontal-list   /* class used to display list items horizontaly*/
+{
+	list-style: none;        
+}
+.horizontal-list li   
+{
+	display:inline-block;
+}
+.text-color
+{
+	color:white;
+}
+.nav-div1 li  /* navigation section*/
+{
+	height:50%;
+}
+.nav-div1 li i
+{
+	height:30%;
+}
+#music-div
+{
+	width:40px;
+	height:30px;
+	background-color:#071279;
+	border-radius: 50%;
+	padding-top: 10%;
+	padding-left:20%;
+
+}
+#music-div1
+{
+	margin-left:10%;
+	width:40%;
+	background-color:#ff06fd;
+	height:70%;
+	border-radius:50%;
+}
+#music-div1 i
+{
+	width:100px;
+	height:80px;
+}
+#swift
+{
+	margin-left:3%;
+}
+#swift img
+{
+	border-radius: 50%;
+}
+.space
+{
+	margin-left: 10%;
+	margin-right:30%;
+}
+.fa-microphone,.fa-search,.fa-bell,.fa-heart-o /*fontawesome icon color setting*/
+{
+  color: white;
+}
+.set-margin
+{
+margin-left:-3%;
+margin-right:-2%;
+}
+.set-color
+{
+	background:linear-gradient(#080119,#403066);
+}
+form button
+{
+   border:none;
+}
+form input[type=text]
+{
+	border:none;
+}
+ #bell
+ {
+ 	margin-left:10%;
+ }
+
+.Release-setting,.Release-setting1
+{
+width:inherit;
+height: auto;
+display:flex;
+flex-wrap: wrap;
+flex-direction: row;
+}
+}
+.hovering:hover   /*hovering affect */
+{
+	border:1px solid grey;
+	box-shadow:0px 0px 6px 4px grey; 
+}
+.hovering2:hover img
+{
+box-shadow:0px 0px 6px 4px grey;	
+}
+main                       /*main section code*/
+{
+	width:60vw;
+	height:650px;
+	display:inline-block;
+	overflow-y: scroll;
+}
+main::-webkit-scrollbar {
+  display: none;
+}
+#main-header     /*international release section*/
+{
+	width:50%;
+	margin-top:5%;
+	margin-left: 20%;
+	max-height: 30%;
+	box-shadow:0px 0px 8px 7px #210369;
+	background-image: url("images/release.jpg");
+	background-size: cover;
+	padding-left: 10%;
+	position:relative;
+	height:15rem;
+}
+#main-header div
+{
+  width:80%;
+  background-image: url("images/background.jpg");
+background-size: cover;
+height:100%;
+}
+#main-header div img
+{
+	margin-top:3%;
+}
+#latest-Release  /* latest release section code*/
+{
+	margin-top:5px;
+	margin-left: 5%;
+	width:50vw;
+	height:auto;
+}
+.osmium-set
+{
+	margin-left: 3%;
+	text-align: left;
+}
+.osmium-set1
+{
+	margin-left:30%;
+	text-align:left;
+}
+
+#div1,#div2,#div3,#div4 /* using flex on latest release section*/
+{
+  width:20rem;
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+margin-bottom:4%;
+position:relative;
+}
+.div-inner-release
+{
+	width:5rem;
+position:relative;
+height:inherit; 
+
+}
+a
+{
+   color:white;
+}
+ .play   /* play button will appear on hovering latest release images and clicking on this play button will take you to footer section*/
+{
+	position:absolute;
+	top:40%;
+	left:50%;
+	display:none;
+}
+.div-inner-release:hover .play{  
+	display:block;
+}
+.playlist
+{
+	position: absolute;
+	left:40%;
+	top:8%;
+	width:10rem;
+	display:none;
+}
+/* on hovering .fa-ellipis icon list will appear*/
+ #div1 .osmium-set1:hover .fa-ellipsis-h,#div2 .osmium-set1:hover .fa-ellipsis-h,#div3 .osmium-set1:hover .fa-ellipsis-h,#div4 .osmium-set1:hover .fa-ellipsis-h
+    {
+     border-radius: 50%;
+     box-shadow: 0px 0px 4px 8px grey;  
+    }
+    #div1 .osmium-set1:hover .playlist,#div2 .osmium-set1:hover .playlist,#div3 .osmium-set1:hover .playlist,#div4 .osmium-set1:hover .playlist
+    {
+    	display:block; 
+    }
+.set-size
+{
+	width:5rem;
+}
+.margin-osmium
+{
+	margin-left:5%;
+}
+#popular-artist,#music-station /* popular artist and music station section*/
+{
+	margin-left: 5%;
+	width:60vw;
+	height: 150px;
+}
+
+.artist li
+{
+   margin-right: 3%;
+   position:relative;
+
+}
+.play1 /* on hovering artist section play button will appear clicking on it will take you to next page*/
+{
+	position:absolute;
+	top:30%;
+	left:30%;
+	display:none;
+}
+.artist li img
+{
+	width:5rem;
+	height: 4rem;
+	border-radius:50%;
+	
+}
+.artist li:hover .play1
+{
+display:block;
+}
+
+#music-station
+{
+	margin-top:4%;
+	width:55vw;
+	background:linear-gradient(#080119,#403066);
+	height:90px;
+	margin-bottom: 3%;
+}
+#music-station div
+{
+	margin-left:4%;
+	margin-top:1%;
+	display:inline-block;
+	vertical-align: top;
+}
+
+#music-station ul
+{
+	display:inline;
+}
+#music-station ul li
+{
+	margin-top: 1%;
+}
+#music-types,#english-release,#hindi-release /* english and hindi release section and music option section code*/
+{
+margin-top:4%;
+margin-left:4%;
+width:60vw;
+}
+#english-release div
+{
+	width:100%;
+	height:135px;
+}
+#hindi-release div
+{
+	width:100%;
+	height:135px;
+}
+ .release-heightwidth img
+{
+	width:7rem;
+	height:5rem;
+}
+#song-div1,#song-div2,#song-div3
+{
+	width:30%;
+	margin-right:1%;
+	position:relative;
+}
+.song:hover img
+{
+position:absolute;
+bottom:15%;
+
+}	
+.inner-div
+{
+	position:absolute;
+	top:3rem;
+	left:40%;
+}
+.right-margin li
+{
+   margin-right: 3%;
+}
+aside /* aside section code*/
+{
+
+   margin-left:5%;
+   display:inline-block;
+   vertical-align:top;
+   width:30vw;
+   height:45vw;
+   overflow: hidden;
+}
+#list-display
+{
+	position:relative;
+}
+.fa-angle-right
+{
+	transform: rotate(90deg);
+}
+#list-option /* on hovering on fa-angle icon list appears*/
+{
+	position:absolute;
+	left:-10%;
+	width:200px;
+	background-color:white;
+	display:none;
+}
+#list-option ul
+{
+	margin-left: -10%;
+}
+.list-set li
+{
+	display:block;
+}
+#aside-header-div #list-display:hover #list-option
+{
+	display:block;
+}
+.right-margin2 
+{
+	margin-left:30%;
+}
+#aside-sec
+{
+	width:inherit;
+	height:100%;
+	overflow-y:scroll;
+}
+#aside-sec::-webkit-scrollbar {    /* hidding scrollbar of aside section */
+  display: none;
+}
+.aside-section
+{
+width:inherit;
+height:100vw;
+display:flex;
+flex-wrap: wrap;
+flex-direction: column;
+}
+.text-color2
+{
+	color:grey;
+}
+.width-set/* aside width */
+{
+   width:40%;
+}
+footer{  /* footer section sode*/
+	position: fixed;
+	bottom:2%;
+}
+#foot  /* footer section will appear on clicking on play button that is there in latest release section*/  
+{
+	display:none;
+}
+#foot:target
+{
+	display: block;
+}
+#footer-div
+{
+	width:100vw;
+	height:auto;
+	background-color: #090707;
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:row;
+	justify-content: space-around;
+}
+#footer-div1,#footer-div2,.footer-inner-div,.footer-inner-div1,#footer-div3
+
+{
+width:20%;
+display:flex;
+flex-wrap:wrap;
+flex-direction: row;
+}
+#footer-div2
+{
+	margin-left:10%;
+	width:30%;
+}
+.footer-inner-div
+{
+	justify-content: space-around;
+}
+.set-border
+{
+	border-radius: 70%;
+}
+.set-border2
+{
+	border-right: 2px ;
+	border-left:2px ;
+	border-radius: 20%;
+}
+#footer-div3
+{
+	width:30%;
+}
+@media screen and (max-width:1490px)/* making the code responsive*/
+{
+	#english-release div
+	{
+		overflow: hidden;
+	}
+	#hindi-release div
+	{
+		overflow:hidden;
+	}
+	#music-station ,#popular-artist
+	{
+		overflow:hidden;
+	}
+	#english-release div,#hindi-release div 
+{
+	height:135px;
+} 
+}
+@media screen and (max-width:1350px)
+{
+	#english-release div,#hindi-release div 
+{
+	height:120px;
+} 
+	.release-heightwidth img
+   {
+	width:5rem;
+	height:4rem;
+   }
+.artist li
+{
+   margin-right: 2%;
+}
+.margin-osmium
+{
+	margin-left: 0%;
+}
+.right-margin2
+{
+	margin-left: 5%;
+}
+.space
+{
+margin-left:8%;
+	margin-right:10%;
+}
+#footer-div
+{
+	height:70px;
+}
+#footer-div1
+{
+	width:30%;
+}
+
+}
+@media screen and (max-width:900px)
+{
+	main
+{
+	width:100vw;
+	height:auto;
+	display:block;
+}
+   aside
+{
+
+   display:block;
+   width:100vw;
+   height:30vw;
+   overflow: hidden;
+}
+
+#english-release ,#hindi-release,#music-station,#popular-artist,#latest-Release,#music-types
+{
+	width:100%;
+}
+#swift
+{
+	margin-left:1%;
+}
+#bell
+{
+	margin-left:1%;
+}
+.space
+{
+	margin-left:3%;
+	margin-right:5%;
+}
+.aside-section
+{
+width:inherit;
+height:100%;
+display:flex;
+flex-wrap: wrap;
+flex-direction: row;
+}
+.heart
+{
+	display:none;
+}
+.Release-setting1
+{
+	width:25%;
+}
+#queue
+{
+	display:none;
+}
+#footer-div
+{
+	height:60px;
+}
+#footer-div1
+{
+	width:30%;
+}
+
+}
+@media screen and (max-width:700px)
+{
+	#footer-div1
+{
+	width:50%;
+}
+}
+@media screen and (max-width:600px)
+{
+   #swift
+   {
+   	display:none;
+   }
+nav
+{
+	margin-left:-5%;
+}
+#popular-artist,#music-station
+{
+	margin-bottom: 5%;
+}
+.right-margin2
+{
+	display:block;
+margin-left: 30%
+}
+aside
+{
+	height:45vw;
+}
+.aside-section
+{
+height:100vw;
+}
+#queue
+{
+	display:none;
+}
+#footer-div
+{
+	height:40px;
+}
+#footer-div2
+{
+	margin-left:5%;
+	width:40%;
+}
+}
